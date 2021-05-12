@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Profile Settings</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<!-- jQuery library -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<!-- Popper JS -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<!-- Latest compiled JavaScript -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  	<link rel="stylesheet" type="text/css" href="css/settings.css">
+  </head>
+  <div class="container">
+  	<body>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  				<a class="navbar-brand" href="./index.html">Love Lockdown</a>
+  			  <ul class="navbar-nav ml-auto">
+  					<li class="nav-item">
+  			      <a class="nav-link" href="#"><i class="material-icons">whatshot</i></a>
+  			    </li>
+  			    <li class="nav-item">
+  			      <a class="nav-link" href="#"><i class="material-icons">notifications</i></a>
+  			    </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"><i class="material-icons">message</i></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"><ul class="list-group">
+                  <h1>Chats</h1>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Asahlt N. Batiry
+                    <span class="badge badge-primary badge-pill">2</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Iluv Stealing
+                    <span class="badge badge-primary badge-pill">2</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Vandal Isum
+                  </li>
+                </ul></a>
+              </div>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"><i class="material-icons">person</i></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./profile.html">Profile</a>
+                <a class="dropdown-item" href="./settings.html">Settings</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Log Out</a>
+              </div>
+              </li>
+  			  </ul>
+  		</nav>
+      <div class="row">
+        <div class="col-sm-3">
+          <h1>Settings</h1>
+          <div class="list-group">
+            <a href="./settings.html" class="list-group-item list-group-item-action">Profile</a>
+            <a href="#" class="list-group-item list-group-item-action">Privacy & Security</a>
+            <a href="#" class="list-group-item list-group-item-action">Manage Matches</a>
+            <a href="#" class="list-group-item list-group-item-action">Recent Activity</a>
+            <a href="#" class="list-group-item list-group-item-action">Update Prison Information</a>
+            <a href="#" class="list-group-item list-group-item-action">Log Out</a>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <img class="profile-picture" src="img/pfp.png" alt="profile picture" width="50%">
+          <h1>Chrim Minnle</h1>
+              <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Name</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="First Name" value="Chrim">
+                  <input type="text" class="form-control" placeholder="Last Name" value="Minnle">
+                </form>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Bio</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Bio" aria-describedby="inputGroup-sizing-default" placeholder="About you...">
+                </div>
+              <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Interests</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Interest 1" value="Freedom">
+                  <input type="text" class="form-control" placeholder="Interest 2" value="GTA">
+                  <input type="text" class="form-control" placeholder="Interest 3" value="DIY Crafting">
+                </div>
+              </form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Location</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Location" placeholder="City, State">
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Email" placeholder="jdoe@lovelockdown.com">
+                </div>
+                <div class="input-group-prepend mb-3">
+                  <span class="input-group-text">Gender</span>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadioFemale">Female</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadioMale">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadioNonbinary">Non-binary</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadioDecline">Decline to state</label>
+                  </div>
+                </div>
+                <div class="input-group-prepend mb-3">
+                  <span class="input-group-text">Peferences</span>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckboxFemale">Female</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckboxMale">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                    <label class="form-check-label" for="inlineCheckboxNonBinary">Non-binary</label>
+                  </div>
+                </div>
+              <button type="submit" class="btn btn-primary">Save Changes</button>
+
+
+        </div>
+      </div>
+  </body>
+</html>
