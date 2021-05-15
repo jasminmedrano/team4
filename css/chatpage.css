@@ -48,5 +48,9 @@ background-size: 100%
 
 img{
   float: right;
-  
+
+}
+
+body{
+  font-family: "Mervale Script", regular, cursive;
 }
