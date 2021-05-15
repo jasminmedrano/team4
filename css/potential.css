@@ -1,5 +1,6 @@
 .orange {
-  background-color: orange
+  background-color: orange;
+  border-radius: 0 !important; 
 }
 
 a {
