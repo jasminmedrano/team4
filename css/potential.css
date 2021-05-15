@@ -13,5 +13,6 @@ a:hover {
 
 
 body{
-  font-family: "Mervale Script", regular, cursive;
+  font-family: "Mervale Script", regular, cursive !important;
 }
+
