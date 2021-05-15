@@ -38,16 +38,6 @@ li a {
 }
 
 
-
-table, th, td {
-  border: 1px solid black;
-  padding: 15px;
-  font-size: 30px;
-  border-collapse: collapse;
-}
-
-
-
 .service-wrapper{
   overflow: hidden;
   position: relative;
