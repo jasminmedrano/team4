@@ -23,6 +23,7 @@ li {
   font-size: 40px;
   color: #ffffff;
 
+
 }
 
 li a {
@@ -33,12 +34,9 @@ li a {
   background-color: #ff6700;
 
 
+
 }
 
-li a:hover:not(.active) 
-{
-    color: #fffff;
-}
 
 
 table, th, td {
@@ -48,24 +46,40 @@ table, th, td {
   border-collapse: collapse;
 }
 
-.img-box {
-    position: relative;
-    width: 100%;
-}
-.overlay {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #3d3d3e;
-    position: absolute;
+
+
+.service-wrapper{
+  overflow: hidden;
+  position: relative;
+  width: 300%;
+  height: 300%;
+
 }
 
-.img-box:hover .overlay {
-    opacity: 1;
-    width:12%;
+.service-wrapper-inner{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 185px;
+  padding: 15px 20px;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+
 }
+
+.service-wrapper:hover .service-wrapper-inner{
+  top: 0;
+} 
+
+.container{
+  display: flex;
+  width: 800%;
+  height: 500%;
+}
+
+
+
