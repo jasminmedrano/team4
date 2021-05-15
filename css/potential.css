@@ -10,3 +10,8 @@ a {
 a:hover {
   color: white !important;
 }
+
+
+body{
+  font-family: "Mervale Script", regular, cursive;
+}
