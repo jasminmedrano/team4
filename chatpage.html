@@ -25,14 +25,30 @@
 
   		<body>
 
-  				
+  							<div class="topnav" id="myTopnav">
+  				<a href="#home" class="active">LoveLock Down</a>
+  				<a href="#news">Hot Chats</a>
+  				<a href="#contact">Potential Matches</a>
+  				<a href="#about">Home</a>
+  				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    				<i class="fa fa-bars"></i>
+  				</a>
+							</div>
 
 
-						<ul>
-  							
-  							<li><a href="#home">CHATS</a></li>
- 
-						</ul>
+								<script>
+									function myFunction() {
+  									var x = document.getElementById("myTopnav");
+  									if (x.className === "topnav") {
+    								x.className += " responsive";
+  									} else {
+    								x.className = "topnav";
+  									}
+									}
+									</script>
+
+
+				
 
 	<div class="container">
 					<div class="col-sm-9"> 
@@ -64,22 +80,21 @@
 											</form>		
 
 
-<div class="container">
-					<div class="col-sm-9"> 
+
 								<div class="list-group"> 
 									<a href="#" class="list-group-item list-group-item-action flex-column align-items-start"></a>
 										<div class="d-flex w-100 justify-content-between">
-									<h2 class="mb-1">Patty Hearst</h2>
-								<small>15 mins ago</small>
+									<h2 class="mb-1">Aleen Rodden</h2>
+								<small>1 hour ago</small>
 						<div>					
-							<span class="badge badge-primary badge-pill">1</span>
+							<span class="badge badge-primary badge-pill">2</span>
 						</div>
 								</div>		
 						<div class="service-wrapper">
 							<div><p class="col-md-6">New chat</p></div>
 								<div class="service-wrapper-inner">
 										<div class="description">
-											<h4>Hey gorgeous! I'm free to meet up after lunch duty.</h4>
+											<h4>Let me slide into your cell. Don't be shy.</h4>
 										</div>
 										<a href="/my-service/" class="service-link"></a>
 											
@@ -91,7 +106,36 @@
 												<label for="response">Response</label>
 												<input type="text" id="username">
 												<input type="submit" value="Submit">
-											</form>		
+											</form>	
+
+
+
+										<div class="list-group"> 
+									<a href="#" class="list-group-item list-group-item-action flex-column align-items-start"></a>
+										<div class="d-flex w-100 justify-content-between">
+									<h2 class="mb-1">Thomas Silverstein</h2>
+								<small>2 hours ago</small>
+						<div>					
+							<span class="badge badge-primary badge-pill">1</span>
+						</div>
+								</div>		
+						<div class="service-wrapper">
+							<div><p class="col-md-6">New chat</p></div>
+								<div class="service-wrapper-inner">
+										<div class="description">
+											<h4>I am just looking for a prison buddy to escape.</h4>
+										</div>
+										<a href="/my-service/" class="service-link"></a>
+											
+
+								</div>
+						</div>
+					</div>
+					                        <form>
+												<label for="response">Response</label>
+												<input type="text" id="username">
+												<input type="submit" value="Submit">
+											</form>			
 										
 	</div>
 
