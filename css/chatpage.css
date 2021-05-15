@@ -8,7 +8,7 @@ body{
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-<<<<<<< HEAD
+
 }
 
 .orange {
@@ -22,17 +22,30 @@ a {
 a:hover {
   color: white;
 }
-=======
+
  
 
 }
 
 
 
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 
 
->>>>>>> 2727f6b88b80c8afdfb63785e5aa40b2bf3270f3
 
 .service-wrapper{
   overflow: hidden;
