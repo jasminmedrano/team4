@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 
+=======
+body{
+	padding: 25px;
+	font-size: 1
+	height: 100%;
+	width: 100%;
+	background-size: 100%
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+>>>>>>> bb38709e4460f0a5132e019decf2e66bda24ce45
 
 .orange {
   background-color: orange
@@ -12,6 +26,7 @@ a:hover {
   color: white;
 }
 
+<<<<<<< HEAD
 body{
 font-size: 1
 height: 100%
@@ -22,16 +37,38 @@ margin-top: 0px;
 margin-right: 0px;
   margin-bottom: 0px;
 
+=======
+
+
+}
+
+
+.topnav{
+   float:center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+>>>>>>> bb38709e4460f0a5132e019decf2e66bda24ce45
 }
 .service-wrapper{
   overflow: hidden;
   position: relative;
-  height: 100%;
+  width: 300%;
+  height: 300%;
 
 }
 
 .service-wrapper-inner{
   height: 100%;
+  width: 100%;
   position: absolute;
   z-index: 1;
   top: 185px;
@@ -48,5 +85,13 @@ margin-right: 0px;
   top: 0;
 }
 
+<<<<<<< HEAD
 
 
+=======
+.container{
+  display: flex;
+  width: 800%;
+  height: 500%;
+}
+>>>>>>> bb38709e4460f0a5132e019decf2e66bda24ce45
