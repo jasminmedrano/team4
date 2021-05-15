@@ -1,0 +1,11 @@
+.orange {
+  background-color: orange
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+  color: white;
+}
