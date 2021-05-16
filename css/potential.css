@@ -10,3 +10,9 @@ a {
 a:hover {
   color: white !important;
 }
+
+
+body{
+  font-family: "Dancing Script", regular, cursive !important;
+}
+
